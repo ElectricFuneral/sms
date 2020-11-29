@@ -73,7 +73,7 @@ class View extends \Gcms\View
                     ),
                 ),
                 array(
-                    'class' => 'float_button icon-write',
+                    'class' => 'float_button icon-new',
                     'href' => $uri->createBackUri(array('module' => 'languageedit', 'id' => null, 'js' => $js)),
                     'title' => '{LNG_Add New}',
                 ),

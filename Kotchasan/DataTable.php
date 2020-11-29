@@ -406,7 +406,7 @@ class DataTable extends \Kotchasan\KBase
                 }
             }
         } elseif (isset($this->datas)) {
-            // อ่านคอลัมน์จากข้อมูลเราการแรก
+            // อ่านคอลัมน์จากข้อมูลรายการแรก
             $this->columns = array();
             if (!empty($this->datas)) {
                 foreach (reset($this->datas) as $key => $value) {
